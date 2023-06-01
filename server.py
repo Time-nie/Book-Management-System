@@ -37,7 +37,7 @@ service = {
     'f6': "19",
 }
 
-db = pymysql.connect(host="114.116.89.58", user="root", password="SS111827jj!", database="library", port=3306, autocommit=True)
+db = pymysql.connect(host="your host", user="root", password="your key", database="library", port=3306, autocommit=True)
 def con():
     # 创建游标对象
     cursor1 = db.cursor()
